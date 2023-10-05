@@ -6,27 +6,47 @@
     <title>Index</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="Asset/logo.png" type="image/x-icon">
+    <style>
+     header{
+text-decoration: underline; color: brown;
+     } 
+     .Contact
+     {
+    margin-right: 5px;
+     }
+     .Details
+     {
+ margin-right: 10px;
+     }
+     .icon
+     {
+
+    padding-bottom: 10px;
+      margin-right: 10px; 
+     }
+    </style>
 </head>
 <body>
-    <header>
-    <i class="fa-solid fa-user"></i><span>Yogesh Kumbhare</span>&nbsp;&nbsp;
-    <i class="fa-solid fa-phone"></i> <span>+91 9834926556</span>&nbsp;&nbsp;
-    <i class="fa-solid fa-envelope"></i> &nbsp;<span>ykumbhare268@gmail.com</span>&nbsp;&nbsp;
+     <header>
+    <i class="Contact fa fa-user" aria-hidden="true"></i><span class="Details">Yogesh Kumbhare</span>
+    <i class="Contact fa fa-phone" aria-hidden="true"></i><span class="Details">+91 9834926556</span>
+    <i class="Contact fa fa-envelope" aria-hidden="true"></i><span class="Details">ykumbhare268@gmail.com</span>
     <br>
     <Nav>
         <a href="home.html" target="ykumbhare" >TECH Knowledge</a>
         <a href="collegeDetails.html" target="College">Education</a>
         <br>
-          <iframe src="" frameborder="0" height="800px" width="1000px" name="ykumbhare" name="College" > </iframe>&nbsp;
-          <iframe src=""  height="800px" width="1000px" name="College"> </iframe>
+          <iframe class="icon" src="" height="500px" width="500px" name="ykumbhare"> </iframe>
+          <iframe src=""  height="500px" width="500px" name="College"> </iframe>
         <br>
     </Nav>
 </header>
+
 <footer>
-    <span>Follow Me </span><font-awesome-icon :icon="['fab', 'facebook-f']"/>&nbsp;&nbsp;
-    <a href=""><i class="fa-brands fa-google"> </i></a>&nbsp;&nbsp; 
-    <a href=""><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
-    <a href=""><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;
+    <span>Follow Me </span><font-awesome-icon :icon="['fab', 'facebook-f']"/>
+    <a class="icon" href="https://google.com" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
+    <a class="icon" href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a class="icon" href="https://facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 </footer>
 </body>
-</html> 
+</html>
